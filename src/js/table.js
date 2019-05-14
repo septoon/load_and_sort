@@ -47,7 +47,7 @@ const createTable = () => {
     <td>${i.id}</td>
     <td>${i.title}</td>
     <td>${i.year}</td>
-    <td>${i.imdb}</td>
+    <td>${i.imdb.toFixed(2)}</td>
     `;
     tbody.appendChild(tr);
   }
